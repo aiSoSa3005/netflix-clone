@@ -1,0 +1,94 @@
+.hero {
+  background: url("../../assets/background.jpg") center/cover no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 300px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 50px;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  padding: 10px;
+  font-family: "Libre Baskerville", serif;
+  text-align: left;
+}
+
+.description {
+  color: lightgray;
+  text-align: left;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    display: none;
+  }
+
+  .title {
+    font-size: 35px;
+    padding: 5px;
+  }
+}
+
+.btns {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  height: 35px;
+}
+.btn--play {
+  color: black;
+  background-color: white;
+}
+
+.btn--add-list {
+  background-color: grey;
+  color: white;
+}
+
+.btn--play::before {
+  content: "\25B6";
+  font-size: 18px;
+  margin: 0 3px;
+}
+
+.btn--add-list::before {
+  content: "\002B";
+  font-size: 18px;
+  margin: 0 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+  }
+}
