@@ -9,6 +9,10 @@
   overflow-y: hidden;
   padding-top: 12px;
 }
+
+::-webkit-scrollbar{
+  display: none;
+}
 .card {
   transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s;
   box-sizing: border-box;
