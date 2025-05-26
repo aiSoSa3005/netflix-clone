@@ -49,7 +49,7 @@ npm run dev
 ## 📝 Stato del progetto
 Progetto work-in-progress. Alcune funzionalità sono ancora da implementare.
 
-## 📷 Screenshot
+
 
 
 
