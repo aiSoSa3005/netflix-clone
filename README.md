@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+# Netflix Clone 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un clone di Netflix realizzato con React e TypeScript, che utilizza l'API di TMDB per mostrare film e serie TV.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+Puoi visualizzare il progetto in locale (localhost).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologie utilizzate
+- React
+- TypeScript
+- The Movie Database API (TMDB)
 
-## Expanding the ESLint configuration
+## 📦 Installazione
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clona il repository:
+```
+git clone https://github.com/aiSoSa3005/netflix-clone.git
+cd netflix-clone
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Installa le dipendenze:
 ```
+npm install
+```
+
+3. Crea un file `.env` nella root del progetto con il seguente contenuto:
+```
+VITE_TMDB_API_KEY=la_tua_chiave_api_tmdb
+```
+
+4. Avvia il progetto:
+```
+npm run dev
+```
+
+5. Accedi a [http://localhost:5173](http://localhost:5173) per visualizzare l'app.
+
+## 📌 Note
+- Per ottenere una chiave API di TMDB, registrati su [https://www.themoviedb.org/](https://www.themoviedb.org/).
+- Senza la chiave API, l'app non potrà recuperare i dati dei film e delle serie.
+
+## 📚 Dipendenze principali
+- React
+- Axios (per le chiamate HTTP)
+- TMDB API
+- TypeScript
+- Vite (per l'ambiente di sviluppo)
+
+## 📝 Stato del progetto
+Progetto work-in-progress. Alcune funzionalità sono ancora da implementare.
+
+## 📷 Screenshot
+
+
+
+
