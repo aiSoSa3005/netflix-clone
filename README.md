@@ -2,8 +2,8 @@
 
 Un clone di Netflix realizzato con React e TypeScript, che utilizza l'API di TMDB per mostrare film e serie TV.
 
-##  Demo
-Puoi visualizzare il progetto in locale (localhost).
+
+![App Preview](public/netflix-preview.png)
 
 ##  Tecnologie utilizzate
 - React
