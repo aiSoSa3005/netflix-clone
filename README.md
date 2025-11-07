@@ -33,7 +33,7 @@ VITE_TMDB_API_KEY=la_tua_chiave_api_tmdb
 npm run dev
 ```
 
-5. Accedi a [http://localhost:5173](http://localhost:5173) per visualizzare l'app.
+
 
 ##  Note
 - Per ottenere una chiave API di TMDB, registrati su [https://www.themoviedb.org/](https://www.themoviedb.org/).
